@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="profile-title">My Profile</h1>
+      </header>
+      <section class="profile">
+        <div class="about-card">
+          <h2>About Me</h2>
+          <p>
+            I'm a BTech student with a strong analytical mindset and a passion
+            for technology. My strengths lie in problem-solving, creativity, and
+            a keen ability to learn and apply new concepts, particularly in the
+            fields of Machine Learning and AI. I'm driven by curiosity and the
+            desire to create innovative solutions. However, I sometimes find it
+            challenging to balance multiple projects at once, and I can be a bit
+            of a perfectionist, which occasionally slows me down. I'm working on
+            improving my time management skills and learning to delegate tasks
+            when needed.
+          </p>
+        </div>
+        <div class="details-card">
+          <h2>Details</h2>
+          <ul>
+            <li><strong>Name:</strong> Midhun B A</li>
+            <li><strong>Age:</strong> 21</li>
+            <li><strong>Address:</strong> Thiruvananthapuram, Kerala</li>
+          </ul>
+          <button class="greet-button" onclick="greet()">Greet </button>
+        </div>
+        <div class="image-card">
+          <img src="img.jpg" alt="Profile Picture" class="profile-pic" />
+          <a href="https://www.linkedin.com/in/midhunba/" class="linkedin-link">LinkedIn Profile</a>
+        </div>
+      </section>
+      <section class="bucket-list">
+        <h2>Bucket List</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Sl.No</th>
+              <th>Items</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Go for First Day First Show</td>
+              <td>✅</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Travel to any country</td>
+              <td>❌</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Learn any new language</td>
+              <td>❌</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Get a Job</td>
+              <td>❌</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Own a business</td>
+              <td>❌</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="media-section">
+        <h2>Favorite Music</h2>
+        <div class="music-card">
+          <img src="deadpool.jpeg" alt="Song Title" class="music-cover" />
+          <audio controls src="NSYNC_-_Bye_Bye_Bye_Lyrics_Deadpool_3_Soundtrack_(youconvert.net).mp3" class="music-player"></audio>
+        </div>
+        <h2>Favorite Movie Clip</h2>
+        <div class="video-card">
+          <video loop autoplay controls src="Thor Arrives In Wakanda Scene - Avengers Infinity War (2018) Movie CLIP 4K ULTRA HD.mp4"></video>
+        </div>
+      </section>
+    </div>
+    <script>
+      function greet() {
+        alert("Hey, I am Midhun. Welcome to my Page");
+      }
+    </script>
+  </body>
+</html>
